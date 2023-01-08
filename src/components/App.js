@@ -35,6 +35,7 @@ function reducer(state, action) {
 
 const App = () => {
  
+const = [state, dispatch]= useReducer(reducer,)
 
   function onIncrement() {
     dispatch({ type: ACTIONS.INCREMENT });
