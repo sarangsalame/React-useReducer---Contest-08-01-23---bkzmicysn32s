@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/App.css';
 import { useReducer } from 'react';
-
+Let initialState={count:0,subNum:0,addNum:0}
 const ACTIONS = {
   INCREMENT: "increment",
   DECREMENT: "decrement",
@@ -35,7 +35,7 @@ function reducer(state, action) {
 
 const App = () => {
  
-const = [state, dispatch]= useReducer(reducer,)
+const = [state, dispatch]= useReducer(reducer,initialState)
 
   function onIncrement() {
     dispatch({ type: ACTIONS.INCREMENT });
