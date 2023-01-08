@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/App.css';
 import { useReducer } from 'react';
-Let initialState={count:0,subNum:0,addNum:0}
+Let initialState={count:10,subNum:1,addNum:1}
 const ACTIONS = {
   INCREMENT: "increment",
   DECREMENT: "decrement",
